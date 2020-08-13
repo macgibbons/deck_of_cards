@@ -12,6 +12,7 @@ class Card:
             self.val = val
         else:
             raise ValueError(f"{val} is not a valid card value")
+        
     def __repr__(self):
         return f"{self.val} of {self.suit}"
 
